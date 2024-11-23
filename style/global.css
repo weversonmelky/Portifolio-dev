@@ -41,6 +41,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--brand-base-gray-200);
     color: var(--brand-base-gray-600);

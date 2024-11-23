@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules\animate.css\animate.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 
     <link rel="stylesheet" href="style/index.css">
+    
+    <script src="script/script.js" defer></script>
+
     <title>Portifólio.Dev</title>
 </head>
 <body>
@@ -21,8 +22,8 @@
         <div class="container-intro">
             <img id="profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkAfldxtAKTJvSgiixpA4sYsktCAPGZ0w3gA&s" alt="Profile">
 
-            <p>
-                Hello World! Meu nome é <span> Weverson Melky</span> e sou
+            <p class="apresentation">
+                Hello World! Meu nome é <span class="name"> Weverson Melky</span> e sou
             </p>
             <h1>Desenvolvedor Fullstack</h1>
             <p class="subtitle">
@@ -39,18 +40,16 @@
                 </ul>
             </div>
 
-            <div class="double-down animate__animated animate__bounce animate__infinite	infinite">
+            <div class="double-down animate__animated animate__bounce animate__infinite">
                 <img src="assets/images/svg/CaretDoubleDown.svg" alt="">
             </div>
         </div>
 
         <div class="container-projects">
-            <p>
-                Meu trabalho
-            </p>
+            <p class="typed-text">Meus trabalhos</p>
 
             <h2>
-                Veja os projetos
+                Veja os projetos em destaque
             </h2>
 
             <div class="content-cards">
@@ -78,8 +77,79 @@
                     <p>Página com as principais informações para quem quer viajar para Busan</p>
                 </div>
 
+                <div class="card">
+                    <img src="assets/images/Thumbnail_Project-06.png" alt="">
+                    <h3>Página de turismo</h3>
+                    <p>Página com as principais informações para quem quer viajar para Busan</p>
+                </div>
+
             </div>
         </div>
+
+        <div class="services">
+            <p>Meus serviços</p>
+            
+            <h2>Como posso ajudar o seu negócio</h2>
+
+            <div class="cards-services">
+                <ul>
+                    <li class="card-service">
+                        <div class="">
+                            <img src="assets/images/svg/Devices.svg" alt="">
+                            <h3>Websites e Aplicativos</h3>
+
+                            <p>Desenvolvimento de interfaces</p>
+                        </div>
+                    </li>
+                    <li class="card-service">
+                        <div class="">
+                            <img src="assets/images/svg/HardDrives.svg" alt="">
+                            <h3>API e banco de dados</h3>
+
+                            <p>Criação de serviços do sistema</p>
+                        </div>
+                    </li>
+                    <li class="card-service">
+                        <div class="">
+                            <img src="assets/images/svg/Infinity.svg" alt="">
+                            <h3>DevOps</h3>
+
+                            <p>Gestão e infraestrutura da aplicação</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-contacts">
+            <p>contatos</p>
+            <h2>Gostouu do meu trabalho?</h2>
+            <p>Entre em contato ou acompanhe as minhas redes sociais</p>
+
+            <div class="contacts">
+                <ul>
+                    <li>
+                        <a href="#"><img src="assets/images/svg/LinkedinLogo.svg" alt="">Linkedin <img src="assets/images/svg/ArrowUpRight.svg" alt="">
+                        </a>
+                </li>
+                    <li>
+                        <a href="#"><img src="assets/images/svg/InstagramLogo.svg" alt="">Instagram <img src="assets/images/svg/ArrowUpRight.svg" alt="">
+                        </a>
+                </li>
+                    <li>
+                        <a href="#"><img src="assets/images/svg/GithubLogo.svg" alt="">GitHub <img src="assets/images/svg/ArrowUpRight.svg" alt="">
+                        </a>
+                </li>
+                    <li>
+                        <a href="#"><img src="assets/images/svg/EnvelopeSimple.svg" alt="">E-mail <img src="assets/images/svg/ArrowUpRight.svg" alt="">
+                        </a>
+                </li>
+                </ul>
+            </div>
+        </div>
+
+
+        
 
     </div>
 </body>

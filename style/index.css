@@ -1,4 +1,8 @@
+@import "animate.css";
 @import url(global.css);
 @import url(container-intro.css);
 @import url(container-projects.css);
 @import url(app.css);
+@import url(container-services.css);
+@import url(container-contacts.css);
+
