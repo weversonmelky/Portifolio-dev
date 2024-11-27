@@ -36,6 +36,8 @@
         border-radius: .75rem;
         padding: .75rem;
         background-color: var(--brand-base-gray-300);
+        border: 1.5px solid var(--brand-base-gray-300);
+
 
         & img {
             width: 100%;
@@ -52,6 +54,16 @@
             color: var(--brand-base-gray-500);
             font: var(--text-sm);
         }
+    }
+
+    .card:hover{
+        border-radius: 12px;
+        border: 1.5px solid var(--brand-base-gray-400);
+        transition: all .2s;
+    }
+
+    .card:not(:hover){
+        filter: saturate(0.1);
     }
 }
 
